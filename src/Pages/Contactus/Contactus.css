@@ -1,0 +1,15 @@
+.contactus_container .wrapper {
+  margin-top: 100px;
+}
+
+.contactus_container .wrapper .contact_map {
+  border: 2px solid #000000;
+}
+
+.contactus_container h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px !important;
+  text-align: center;
+  text-transform: uppercase;
+}

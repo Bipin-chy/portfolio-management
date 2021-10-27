@@ -1,0 +1,63 @@
+.contact_form_container {
+  padding: 100px 0 0 0;
+}
+
+.contact_form_container .contact_form_content .contact_form_text {
+  border: 2px solid #000000;
+  padding: 20px 30px;
+}
+
+.contact_form_container .contact_form_content .contact_form_text span,
+.contact_form_container .contact_form_content .contact_form_text p {
+  font-weight: 500;
+  text-align: justify;
+}
+
+.contact_form_container .contact_form_content .contact_form_text h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.contact_form_container .contact_form_content .contact_form_text .contact_info {
+  margin-top: 20px;
+}
+
+.contact_form_container .contact_info .contact_info_item {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.contact_form_container .contact_info .contact_info_item p {
+  margin-left: 20px !important;
+}
+
+/* contact form details */
+
+.contact_form_container .contact_form_content .contact_form_details {
+  padding: 20px 30px;
+}
+
+.contact_form_container .contact_form_content .contact_form_details h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.contact_form_container .contact_form_content .contact_form_details form {
+  margin-top: 15px;
+}
+
+.contact_form_container .contact_form_content .contact_form_details label {
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact_form_container .contact_form_content .contact_form_details {
+    padding: 0;
+  }
+}

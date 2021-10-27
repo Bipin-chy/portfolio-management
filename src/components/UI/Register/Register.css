@@ -1,0 +1,63 @@
+.register_container {
+  text-align: center;
+}
+
+.register_container h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.register_container p {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.register_container .register_content {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.register_container .register_content form {
+  background: #ffffff;
+  padding: 40px 30px;
+  width: 50%;
+}
+
+.register_container .register_content .form_label {
+  float: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.register_container .register_content span {
+  text-align: start !important;
+}
+
+.register_container .register_content p {
+  text-align: start;
+  margin-bottom: 15px !important;
+}
+
+.register_container .register_content .user {
+  margin-top: 15px;
+}
+
+.register_container .register_content .user a {
+  font-weight: 600;
+}
+
+.register_container .bg-dark {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .register_container h2 {
+    font-size: 2rem;
+  }
+
+  .register_container .register_content form {
+    width: 100%;
+  }
+}

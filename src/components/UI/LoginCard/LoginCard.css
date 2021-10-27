@@ -1,0 +1,59 @@
+.login_container {
+  text-align: center;
+}
+
+.login_container h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.login_container p {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.login_container .login_content {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.login_container .login_content form {
+  background: #ffffff;
+  padding: 40px 30px;
+  width: 50%;
+}
+
+.login_container .login_content .form_label {
+  float: left;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.login_container .login_content .forget_password {
+  float: right;
+  text-decoration: underline;
+}
+
+.login_container .login_content .user {
+  margin-top: 15px;
+}
+
+.login_container .login_content .user a {
+  font-weight: 600;
+}
+
+.login_container .bg-dark {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .login_container h2 {
+    font-size: 2rem;
+  }
+
+  .login_container .login_content form {
+    width: 100%;
+  }
+}

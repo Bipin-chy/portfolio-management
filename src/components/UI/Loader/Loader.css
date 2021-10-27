@@ -1,0 +1,11 @@
+.loader_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loader_container .loader_content h3 {
+  font-weight: 600;
+  margin-bottom: 10px !important;
+}

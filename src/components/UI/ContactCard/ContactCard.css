@@ -1,0 +1,55 @@
+.contact_card_container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact_card_container span {
+  font-weight: 500;
+}
+
+.contact_card_container h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.contact_card_container .contact_card_content {
+  margin-top: 20px;
+}
+
+.contact_card_container .contact_card_content .contact {
+  border: 2px solid #000000;
+  padding: 20px 30px;
+}
+
+.contact_card_container .contact_card_content svg {
+  font-size: 2rem;
+}
+
+.contact_card_container .contact_card_content h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.contact_card_container .contact_card_content p {
+  text-align: justify;
+  font-weight: 500;
+}
+
+.contact_card_container .contact_card_content button {
+  margin-top: 10px;
+}
+
+.contact_card_container .contact_card_content .contact_text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact_card_container .contact_card_content .contact_text h4 {
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .contact_card_container h1 {
+    font-size: 2rem;
+  }
+}

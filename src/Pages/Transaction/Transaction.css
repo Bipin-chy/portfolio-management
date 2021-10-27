@@ -1,0 +1,9 @@
+.transaction_container {
+  padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  .transaction_container {
+    padding: 30px 0;
+  }
+}

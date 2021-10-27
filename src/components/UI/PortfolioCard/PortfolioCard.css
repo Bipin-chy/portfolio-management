@@ -1,0 +1,30 @@
+.portfolio_card_container p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.portfolio_card_container h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.portfolio_card_container .portfolio_card_content {
+  margin-top: 50px;
+}
+
+.portfolio_card_container .portfolio_card_content .summary {
+  background: #ffffff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio_card_container .portfolio_card_content .summary .summary_card {
+  background: #000000;
+  padding: 10px;
+  color: #ffffff;
+  margin: 10px;
+  width: 160px;
+}
